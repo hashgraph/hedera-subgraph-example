@@ -51,7 +51,7 @@ npm run graph-node
 8. Generate the AssemblyScript types:
 
 ```shell
-graph codegen
+npm run graph-codegen
 ```
 
 9. Create the subgraph: 

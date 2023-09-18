@@ -10,8 +10,9 @@
     "remove-local": "graph remove --node http://localhost:8020/ Greeter",
     "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 Greeter",
     "test": "graph test",
-    "graph-node": "docker-compose --file ./graph-node/docker-compose.yaml up -d",
-    "graph-local-clean": "docker-compose down -v && docker-compose rm -v && rm -rf data/ipfs data/postgres"
+    "graph-node": "docker compose --file ./graph-node/docker-compose.yaml up -d",
+    "graph-local-clean": "docker-compose down -v && docker-compose rm -v && rm -rf data/ipfs data/postgres",
+    "graph-codegen": "graph codegen"
   },
   "repository": {
     "type": "git",
@@ -24,8 +25,8 @@
   },
   "homepage": "https://github.com/Daniel-K-Ivanov/hedera-subgraph-repo-example#readme",
   "dependencies": {
-    "@graphprotocol/graph-cli": "0.33.0",
-    "@graphprotocol/graph-ts": "0.27.0",
+    "@graphprotocol/graph-cli": "^0.58.0",
+    "@graphprotocol/graph-ts": "^0.31.0",
     "@protofire/subgraph-toolkit": "^0.1.2"
   },
   "devDependencies": {
