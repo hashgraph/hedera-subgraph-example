@@ -1,5 +1,5 @@
 {
-  "name": "hedera-subgraph-repo-example",
+  "name": "@hashgraph/hedera-subgraph-repo-example",
   "version": "1.0.0",
   "description": "An example repo to get you started with Subgraphs on Hedera. Based on the example [Hedera Smart Contracts Repo](https://github.com/Daniel-K-Ivanov/hedera-contracts-repo-example)",
   "main": "index.js",
